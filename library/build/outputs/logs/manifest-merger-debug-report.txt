@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml:2:11-51
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml:2:1-4:12
+uses-sdk
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+		ADDED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+		ADDED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml
+		INJECTED from E:\0 Chirag\Demo\android-smart-animation-library-master\library\src\main\AndroidManifest.xml

@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.animX.animationlib.androidclassyanimation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:5:5-53:19
+12        android:allowBackup="true"
+12-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\7c2240fec1852b86d9bcd3dd458878fc\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/applicon"
+15-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:7:9-42
+16        android:label="@string/app_name"
+16-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:8:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:9:9-40
+19        <activity
+19-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:10:9-19:20
+20            android:name="com.animX.animationlib.androidclassyanimation.Animx_MainActivity"
+20-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:11:13-92
+21            android:exported="true"
+21-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:13:13-36
+22            android:label="@string/app_name" >
+22-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:12:13-45
+23            <intent-filter>
+23-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:15:17-69
+24-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:17:17-77
+26-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:20:9-22:41
+30            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_AttentionView"
+30-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:21:13-99
+31            android:label="Attention" />
+31-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:22:13-38
+32        <activity
+32-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:23:9-25:41
+33            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_BounceInView"
+33-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:24:13-98
+34            android:label="Bounce In" />
+34-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:25:13-38
+35        <activity
+35-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:26:9-28:39
+36            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FadeInView"
+36-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:27:13-96
+37            android:label="Fade In" />
+37-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:28:13-36
+38        <activity
+38-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FadeOutView"
+39-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:30:13-97
+40            android:label="Fade Out" />
+40-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:32:9-34:37
+42            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FlipView"
+42-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:33:13-94
+43            android:label="Flips" />
+43-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:34:13-34
+44        <activity
+44-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:35:9-37:43
+45            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_RotationInView"
+45-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:36:13-100
+46            android:label="Rotation In" />
+46-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:37:13-40
+47        <activity
+47-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:38:9-40:44
+48            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_RotationOutView"
+48-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:39:13-101
+49            android:label="Rotation Out" />
+49-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:40:13-41
+50        <activity
+50-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:41:9-43:39
+51            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_SlidersView"
+51-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:42:13-97
+52            android:label="Sliders" />
+52-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:43:13-36
+53        <activity
+53-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:44:9-46:39
+54            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_SpecialView"
+54-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:45:13-97
+55            android:label="Special" />
+55-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:46:13-36
+56        <activity
+56-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:47:9-49:39
+57            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_ZoomInView"
+57-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:48:13-96
+58            android:label="Zoom In" />
+58-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:49:13-36
+59        <activity
+59-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:50:9-52:40
+60            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_ZoomOutView"
+60-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:51:13-97
+61            android:label="Zoom Out" />
+61-->E:\0 Chirag\Demo\android-smart-animation-library-master\example\src\main\AndroidManifest.xml:52:13-37
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+65            android:authorities="com.animX.animationlib.androidclassyanimation.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\49af252bd8650fcf5cc56b06d457f648\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\d7b561543f08d27f333f92f7f3713e94\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\d7b561543f08d27f333f92f7f3713e94\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\TechnoTouch\.gradle\caches\transforms-3\d7b561543f08d27f333f92f7f3713e94\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>

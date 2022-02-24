@@ -1,0 +1,4 @@
+#Thu Feb 24 15:02:03 IST 2022
+base.0=E\:\\0 Chirag\\Demo\\android-smart-animation-library-master\\example\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

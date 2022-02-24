@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+id action_settings
+menu menu_main
+string action_settings
+string app_name
+string hello_world

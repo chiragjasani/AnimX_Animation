@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.animX.animationlib.androidclassyanimation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/applicon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Animx_MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_AttentionView"
+            android:label="Attention" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_BounceInView"
+            android:label="Bounce In" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FadeInView"
+            android:label="Fade In" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FadeOutView"
+            android:label="Fade Out" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_FlipView"
+            android:label="Flips" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_RotationInView"
+            android:label="Rotation In" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_RotationOutView"
+            android:label="Rotation Out" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_SlidersView"
+            android:label="Sliders" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_SpecialView"
+            android:label="Special" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_ZoomInView"
+            android:label="Zoom In" />
+        <activity
+            android:name="com.animX.animationlib.androidclassyanimation.Views.Animx_ZoomOutView"
+            android:label="Zoom Out" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.animX.animationlib.androidclassyanimation.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
