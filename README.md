@@ -1,7 +1,7 @@
 # AnimX_Animation
  AnimX_Animation
 
-<b>AndroidX Supported AnimX Animation Library<b>
+<b>AndroidX Supported AnimX Animation Library</b>
 
 1.)"compileSdkVersion" should be greater than or equals to 32<br>
 2.)"buildToolsVersion" should be greater than or equals to 32.0.0<br>
